@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="fl" x1="20" y1="10" x2="70" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A35"/>
+      <stop offset="1" stop-color="#E03A12"/>
+    </linearGradient>
+    <linearGradient id="dr" x1="50" y1="30" x2="95" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4AADE0"/>
+      <stop offset="1" stop-color="#1569A8"/>
+    </linearGradient>
+  </defs>
+  <!-- Flame -->
+  <path fill="url(#fl)" d="M42 95c-8-22-2-42 12-62 2 12 4 22 0 32 10-18 18-36 14-58 22 18 34 48 28 76-4 20-20 36-40 36-10 0-16-8-14-24z"/>
+  <!-- Wrench -->
+  <g fill="#3A424E" transform="rotate(-40 60 62)">
+    <rect x="52" y="40" width="14" height="58" rx="5"/>
+    <path d="M46 36c0-12 10-22 22-22 8 0 14 3 18 8l-9 9c-2-2-5-4-9-4-6 0-10 4-10 9v8H46V36z"/>
+    <path d="M46 50h20c8 0 14 6 14 14v4c0 5-3 9-7 11l-10 7H46V50z"/>
+    <circle cx="60" cy="64" r="4" fill="#1E242C"/>
+  </g>
+  <!-- Drop -->
+  <path fill="url(#dr)" d="M62 28c16 26 30 42 30 60 0 16-12 28-28 28S36 104 36 88c0-18 14-34 26-60z"/>
+  <path fill="#fff" opacity=".55" d="M52 58c2-10 8-20 12-28 4 10 4 20-1 28-2 4-7 5-11 0z"/>
+</svg>
