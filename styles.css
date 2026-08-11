@@ -1180,16 +1180,42 @@ a.contact__item:hover span { color: var(--orange); }
   }
 
   .promise-bar {
-    padding: 0.95rem 0;
+    padding: 1rem 0;
+    background: #eef3f8;
   }
 
   .promise-bar__inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.65rem 1rem;
-    text-align: center;
-    font-size: 0.78rem;
-    letter-spacing: 0.02em;
+    gap: 0.55rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--navy);
+  }
+
+  .promise-bar__inner span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.45rem;
+    margin: 0;
+    padding: 0.7rem 0.8rem;
+    background: rgba(247, 249, 252, 0.95);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    text-align: left;
+    line-height: 1.25;
+  }
+
+  .promise-bar__inner span::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--orange);
+    flex-shrink: 0;
   }
 
   .promise-bar__inner span:not(:last-child)::after {
